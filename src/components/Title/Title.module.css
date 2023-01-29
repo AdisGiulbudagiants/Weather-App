@@ -1,0 +1,54 @@
+.main {
+  background: #3a3d3a;
+  min-height: 795px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.linksDiv {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0 15% 0;
+}
+
+.links {
+  text-decoration: none;
+  color: #AFF;
+  font-size: 40px;
+  margin: 0 15% 0 0;
+}
+.links:hover {
+  transform: scale(1.04);
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  color: #AFF;
+  font-size: 6rem;
+  margin: 0 0 1% 0;
+}
+.title__second {
+  color: #AFF;
+  font-size: 3rem;
+  margin: 0 0 2% 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 5.5rem;
+    margin: 20% 0 5% 0;
+  }
+  .title__second {
+    font-size: 2.5rem;
+  }
+  .linksDiv {
+    margin: 10% 0 0 0;
+    justify-content: center;
+  }
+  .links {
+    font-size: 60px;
+  }
+}

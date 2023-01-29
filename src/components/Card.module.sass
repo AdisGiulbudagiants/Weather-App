@@ -1,0 +1,95 @@
+$background-color: #3a3d3a
+$text-color: #AFF
+
+.section
+    min-height: 798px
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: $background-color
+    // margin: 0 0 2% 0
+
+hr
+    width: 100%
+    margin: 0
+    border: 1px solid $text-color
+
+.inputDiv
+    margin: 0 auto
+
+.input
+    width: 500px
+    height: 50px
+    margin: 6% 0 6% 0
+    border-radius: 25px
+    border: 3px solid $text-color
+    font-size: 1.6rem
+    padding: 1%
+    color: white
+    background: $background-color
+    outline: none
+    &:focus
+        transform: scale(1.01)
+    &::placeholder
+        color: $text-color
+
+.main
+    min-height: 600px
+    width: 90%
+    border-radius: 20px
+    background: url('./SL-031821-41530-04.jpg') no-repeat center center/cover
+    margin: 0 0 2% 0
+
+.top
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 8% auto
+    color: white
+    background: rgba(0,0 ,0 ,0.09 )
+    border-radius: 20px
+    max-width: 500px
+    max-height: 180px
+.temperature
+    font-size: 110px
+
+.city
+    font-size: 50px
+    margin: 0 0 0 2%
+
+.bottom
+    color: black
+    display: flex
+    justify-content: center
+    margin: 20% 0 2% 0
+.feels,.humidity,.wind,.feelsLike,.humidityLike,.windSpeed
+    display: flex
+    justify-content: center
+    margin: 0 0 2% 0
+    color: $background-color
+
+.feels,.humidity,.wind
+    font-size: 60px
+
+.feelsLike,.humidityLike,.windSpeed
+    font-size: 30px
+
+.first,.second,.third
+    width: 200px
+    margin: 0 4% 0 4%
+    border-radius: 20px
+    background: rgba(0,0 ,0 ,0.09 )
+    &:first-child
+        margin-left: 0
+    &:last-child
+        margin-right: 0
+
+// @media ( max-width:2560px)
+//     .section
+//         min-height: 1440px
+//     .input
+//         width: 1000px
+//         height: 100px
+//         font-size: 4rem
+//     .main
+//         min-height: 1100px

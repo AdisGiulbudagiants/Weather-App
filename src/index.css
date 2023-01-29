@@ -1,7 +1,14 @@
+@import '~normalize.css';
+@import '~reset.css';
 body {
   margin: 0;
   font-family: "Segoe UI", "Roboto";
-  background: #A5F;
+  background: #3a3d3a;
+}
+
+h1, p {
+  font-family: "Anton", sans-serif;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
 
 code {
